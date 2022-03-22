@@ -1,0 +1,30 @@
+.place {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0;
+  max-width: 984px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .place:last-child {
+    margin-bottom: 66px;
+  }
+}
